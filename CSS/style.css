@@ -313,7 +313,7 @@ p{
     }
 
     label.logo{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 28px;
     }
     
@@ -354,7 +354,7 @@ p{
         border: 1px solid #d6004700;
     }
     .titleMid{
-        margin-top: 130px;
+        margin-top: 100px;
         margin-right: 10px;
         margin-bottom: 40px;
         margin-left: 0px;
@@ -466,6 +466,14 @@ p{
     #check:checked ~ul {
         left: 0;
     }
+    .bodyPage{
+        background-color: #181815;
+        color: white;
+        font-family: ProzaLibre-Light;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+    }
     .bodyPage .upSkills{
         margin-top: 40px;
         margin-bottom: 100px;
@@ -479,11 +487,10 @@ p{
         width: 350px;
         font-size: 35px;
         margin-bottom: 5px;
-        margin-left: 0px;
     }
 
     label.logo{
-        font-size: 20px;
+        font-size: 15px;
         padding-left: 20px;
     }
     
@@ -524,10 +531,7 @@ p{
         border: 1px solid #d6004700;
     }
     .titleMid{
-        margin-top: 100px;
-        margin-right: 10px;
-        margin-bottom: 40px;
-        margin-left: 0px;
+        margin-top: 70px;
     }
 
     .txtQuarent{
@@ -627,6 +631,12 @@ p{
     #check:checked ~ul {
         left: 0;
     }
+    .bodyPage{
+        background-color: #181815;
+        color: white;
+        font-family: ProzaLibre-Light;
+        margin-left: 10px;
+    }
     .bodyPage .upSkills{
         margin-top: 20px;
         margin-bottom: 100px;
@@ -642,15 +652,13 @@ p{
     }
 
     .titleMid{
-        margin-top: 100px;
-        margin-right: 10px;
+        margin-top: 50px;
         margin-bottom: 40px;
-        margin-left: 0px;
         font-size: 18px;
     }
 
     label.logo{
-        font-size: 16px;
+        font-size: 15px;
         padding-left: 28px;
     }
     
