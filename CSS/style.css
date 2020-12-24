@@ -288,6 +288,14 @@ p{
     #check:checked ~ul {
         left: 0;
     }
+    .bodyPage{
+        background-color: #181815;
+        color: white;
+        font-family: ProzaLibre-Light;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        margin-left: 30px;
+    }
     .bodyPage .upSkills{
         margin-top: 80px;
         margin-bottom: 100px;
@@ -305,7 +313,7 @@ p{
     }
 
     label.logo{
-        font-size: 33px;
+        font-size: 20px;
         padding-left: 28px;
     }
     
@@ -471,11 +479,11 @@ p{
         width: 350px;
         font-size: 35px;
         margin-bottom: 5px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
     label.logo{
-        font-size: 25px;
+        font-size: 20px;
         padding-left: 20px;
     }
     
@@ -642,7 +650,7 @@ p{
     }
 
     label.logo{
-        font-size: 20px;
+        font-size: 16px;
         padding-left: 28px;
     }
     
