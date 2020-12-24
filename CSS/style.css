@@ -113,6 +113,23 @@ a:active, a:hover .p1-2{
     display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Complete */
 @media (max-width: 952px){
     label.logo{
         font-size: 30px;
@@ -123,71 +140,27 @@ a:active, a:hover .p1-2{
     } 
 }
 
-@media (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #272723;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-    navul li a{
-        font-size: 20px;
-    }
-    a:active, a:hover{
-        background: none;
-        color: #11110f;
-    }
-    
-    #check:checked ~ul {
-        left: 0;
-    }
-    .bodyPage .upSkills{
-        line-height: 68px;
-    }
-    .bodyPage .upSkills .green{
-        margin-bottom: 158px;
-    }
+
+
+h1 {
+    font-size: 62px;
+    margin-bottom: 40px;
 }
-
-/*Conteudo*/
-
-.nav_atual{
-    color: var(--color-blue);
-}
-
-.nav_other { 
-    color:white; 
-    text-decoration: none;
-}
-
 .titleMid{
     margin-top: 200px;
     margin-right: 10px;
     margin-bottom: 40px;
     margin-left: 0px;
 }
-
-h1 {
-    font-size: 62px;
-    margin-bottom: 40px;
+.images{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    float: right;
+    border: transparent thin solid;
+    padding: 50px;
+    margin: -150px 50px 10px 0;
 }
-
-.mark {
-    background-color: rgba(194, 194, 194, 0.142);
-}
-
 .p1{
     margin-top: 5px;
     font-size: 20px;
@@ -223,19 +196,7 @@ p{
     margin-left: 0px;
 }
 
-.images{
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    float: right;
-    border: transparent thin solid;
-    padding: 50px;
-    margin: -150px 50px 10px 0;
-}
 
-
-
-/*aaaa*/
 .txtQuarent{
     margin: 5px 0px 0 50px;
     text-align: left;
@@ -276,7 +237,7 @@ p{
     float: left;
 }
 
-.textoCont{
+.textoCont {
     margin-left: 50px;
     margin-top: 25px;
     display: table;
@@ -284,6 +245,325 @@ p{
     width: 300px;
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive 01 */
+@media (max-width: 425px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272723;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:active, a:hover{
+        background: none;
+        color: #11110f;
+    }
+    
+    #check:checked ~ul {
+        left: 0;
+    }
+    .bodyPage .upSkills{
+        margin-top: 80px;
+        margin-bottom: 100px;
+        line-height: 35px;
+    }
+    .bodyPage .upSkills .green{
+        margin-bottom: 158px;
+    }
+    h1 {
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    
+    .images{
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        float: right;
+        border: transparent thin solid;
+        padding: 50px;
+        margin: -200px -23px -30px 0;
+    }
+    .p1{
+        width: 15em;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .p1-2{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    
+    .p2{
+        line-height: 1.3em;
+        margin-top: 60px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 15px
+    }
+    
+    p{
+        white-space: normal; 
+        width: 22em; 
+        overflow: hidden;
+        text-overflow: clip; 
+        border: 1px solid #d6004700;
+    }
+    .titleMid{
+        margin-top: 200px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+    }
+
+
+
+    
+
+    .txtQuarent{
+        width: 0px;
+    }
+    
+    .txtGit{
+        width: 0px;
+    }
+    
+    .games{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 90px;
+    }
+    
+    .games2{
+        width: 150px;
+        height: 150px;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .gameType{
+        width: 450px;
+    }
+    
+    .conteudo{
+        margin-top: 0px;
+    }
+     
+    .imgCont{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: transparent thin solid;
+        padding: 50px;
+    }
+    
+    .textoCont{
+        width: 352px; 
+        margin-left: 50px;
+        margin-top: 30px;
+        display: block;
+        color: #fff;
+    }
+    .p3{
+        width: 21em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive 01 */
+@media (max-width: 375px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272723;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:active, a:hover{
+        background: none;
+        color: #11110f;
+    }
+    
+    #check:checked ~ul {
+        left: 0;
+    }
+    .bodyPage .upSkills{
+        margin-top: 25px;
+        line-height: 68px;
+    }
+    .bodyPage .upSkills .green{
+        margin-bottom: 158px;
+    }
+    h1 {
+        font-size: 35px;
+        margin-bottom: -15px;
+    }
+    
+    .images{
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        float: right;
+        border: transparent thin solid;
+        padding: 50px;
+        margin: -150px -40px 10px 0;
+    }
+    .p1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    .p1-2{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    
+    .p2{
+        line-height: 1.3em;
+        margin-top: 60px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        font-size: 15px
+    }
+    
+    p{
+        white-space: normal; 
+        width: 25em; 
+        overflow: hidden;
+        text-overflow: clip; 
+        border: 1px solid #d6004700;
+    }
+}
+
+/* Mobile */
+/* @media (max-width: 425px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #272723;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:active, a:hover{
+        background: none;
+        color: #11110f;
+    }
+    
+    #check:checked ~ul {
+        left: 0;
+    }
+    h1 .upSkills{
+        line-height: 10px;
+        font-size: 10px;
+    }
+    h1 .green{
+        margin-bottom: 100px;
+    }
+    /* .bodyPage .upSkills{
+        line-height: 68px;
+    }
+    .bodyPage .upSkills .green{
+        
+        margin-bottom: 100px;
+    } */
+    /*.images{
+        flex: auto;
+    }
+} */
+
+/*Conteudo*/
+
+.nav_atual{
+    color: var(--color-blue);
+}
+.nav_other { 
+    color:white; 
+    text-decoration: none;
+}
+
+
+.mark {
+    background-color: rgba(194, 194, 194, 0.142);
+}
+
 
 .link{
     color: var(--color-green); 
