@@ -33,7 +33,7 @@ body, html{
 
 .blue{
     color: var(--color-blue);
-    
+
 }
 
 .lang1, .lang0 {
@@ -144,7 +144,7 @@ a:active, a:hover .p1-2{
     }
     nav ul li {
         font-size: 16px;
-    } 
+    }
 }
 
 
@@ -172,10 +172,10 @@ h1 {
 }
 
 p{
-    white-space: normal; 
-    width: 35em; 
+    white-space: normal;
+    width: 35em;
     overflow: hidden;
-    text-overflow: clip; 
+    text-overflow: clip;
     border: 1px solid #d6004700;
 }
 
@@ -241,7 +241,7 @@ p{
     margin-top: 100px;
     display: table;
 }
- 
+
 .imgCont{
     display: table-cell;
     float: left;
@@ -270,7 +270,7 @@ p{
     position: relative;
     margin-top: 0px;
     margin-right: 0px;
-    
+
   }
     @media (min-width: 480px) {
         .gallery-container {
@@ -278,12 +278,12 @@ p{
           margin-right: -18px;
         }
     }
-  
+
   /* Hide the images by default */
   .mySlides {
     display: none;
   }
-  
+
   /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
@@ -299,27 +299,27 @@ p{
     border-radius: 0 3px 3px 0;
     background-color: rgba(0,0,0,0.1);
   }
-  
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
-  
+
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
-  
+
   /* Caption text */
-  
-  
+
+
   .imgslide {
     width: 100%;
   }
-  
-  
-  
+
+
+
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -327,19 +327,19 @@ p{
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
+
   @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
-  
+
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
   }
 
 
-  
+
 
    .logoGames{
     width: 400px;
@@ -364,7 +364,7 @@ p{
     .logoInfo{
         width: 400px;
         height: 400px;
-    } 
+    }
 
     .textoInfo {
         /* margin-left: -180px;
@@ -380,13 +380,59 @@ p{
     }
     .p4{
         font-size: 30px;
-        text-align: justify;
-        width: 19em;
+        width: 573px;
         margin-bottom: 35px;
     }
-  
 
 
+
+
+    /*slide Colab*/
+    
+    .containerColab{
+        width: 1320px;
+        height: 35vh;
+        margin-bottom: 120px; 
+        margin-left: 69px;
+        display: flex;
+    }
+
+    .boxColab{
+        width: 200px;
+        height: 35vh;
+        background-color: #1e1e26;
+        border-radius: 20px;
+        margin-right: 80px;
+        
+    }
+
+    .pessoa1{
+        color: var(--color-yell);
+        width: 200px;
+        text-align: center;
+    }
+    .pessoa2{
+        color: var(--color-green);
+        width: 200px;
+        text-align: center;
+    }
+
+    .func1{
+        color: #fff;
+        width: 200px;
+        text-align: center;
+    }
+
+    .p22{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .logo-slider{
+        margin-left: 48px;
+        margin-bottom: 50px;
+    }
 
 
 
@@ -441,7 +487,7 @@ p{
     .bodyPage .upSkills .green{
         margin-bottom: 158px;
     }
-    
+
     h1 {
         width: 350px;
         font-size: 35px;
@@ -453,7 +499,7 @@ p{
         font-size: 15px;
         padding-left: 28px;
     }
-    
+
     .images{
         width: 450px;
         height: 450px;
@@ -468,12 +514,12 @@ p{
         margin-top: 20px;
         font-size: 20px;
     }
-    
+
     .p1-2{
         margin-top: 25px;
         font-size: 20px;
     }
-    
+
     .p2{
         line-height: 1.3em;
         margin-top: 60px;
@@ -482,12 +528,12 @@ p{
         margin-left: 0px;
         font-size: 15px
     }
-    
+
     p{
-        white-space: normal; 
-        width: 22em; 
+        white-space: normal;
+        width: 22em;
         overflow: hidden;
-        text-overflow: clip; 
+        text-overflow: clip;
         border: 1px solid #d6004700;
     }
     .titleMid{
@@ -499,37 +545,37 @@ p{
 
 
 
-    
+
 
     .txtQuarent{
         width: 0px;
     }
-    
+
     .txtGit{
         width: 0px;
     }
-    
+
     .games{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin-left: 90px;
     }
-    
+
     .games2{
         width: 150px;
         height: 150px;
         margin: 0px 0px 0px 0px;
     }
-    
+
     .gameType{
         width: 450px;
     }
-    
+
     .conteudo{
         margin-top: 0px;
     }
-     
+
     .imgCont{
         width: 200px;
         height: 200px;
@@ -537,9 +583,9 @@ p{
         border: transparent thin solid;
         padding: 50px;
     }
-    
+
     .textoCont{
-        width: 352px; 
+        width: 352px;
         margin-left: 50px;
         margin-top: 30px;
         display: block;
@@ -576,7 +622,7 @@ p{
         background: none;
         color: #11110f;
     }
-    
+
     #check:checked ~ul {
         left: 0;
     }
@@ -607,7 +653,7 @@ p{
         font-size: 15px;
         padding-left: 20px;
     }
-    
+
     .images{
         width: 410px;
         height: 410px;
@@ -622,12 +668,12 @@ p{
         margin-top: 20px;
         font-size: 20px;
     }
-    
+
     .p1-2{
         margin-top: 25px;
         font-size: 20px;
     }
-    
+
     .p2{
         line-height: 1.3em;
         margin-top: 60px;
@@ -636,12 +682,12 @@ p{
         margin-left: 0px;
         font-size: 15px
     }
-    
+
     p{
-        white-space: normal; 
-        width: 19em; 
+        white-space: normal;
+        width: 19em;
         overflow: hidden;
-        text-overflow: clip; 
+        text-overflow: clip;
         border: 1px solid #d6004700;
     }
     .titleMid{
@@ -651,32 +697,32 @@ p{
     .txtQuarent{
         width: 0px;
     }
-    
+
     .txtGit{
         width: 0px;
     }
-    
+
     .games{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin-left: 65px;
     }
-    
+
     .games2{
         width: 150px;
         height: 150px;
         margin: 0px 0px 0px 0px;
     }
-    
+
     .gameType{
         width: 450px;
     }
-    
+
     .conteudo{
         margin-top: 0px;
     }
-     
+
     .imgCont{
         width: 200px;
         height: 200px;
@@ -684,9 +730,9 @@ p{
         border: transparent thin solid;
         padding: 50px;
     }
-    
+
     .textoCont{
-        width: 352px; 
+        width: 352px;
         margin-left: 29px;
         margin-top: 30px;
         display: block;
@@ -723,7 +769,7 @@ p{
         background: none;
         color: #11110f;
     }
-    
+
     #check:checked ~ul {
         left: 0;
     }
@@ -757,7 +803,7 @@ p{
         font-size: 15px;
         padding-left: 28px;
     }
-    
+
     .images{
         width: 350px;
         height: 350px;
@@ -772,12 +818,12 @@ p{
         margin-top: 8px;
         font-size: 14px;
     }
-    
+
     .p1-2{
         margin-top: 25px;
         font-size: 10px;
     }
-    
+
     .p2{
         line-height: 1.3em;
         margin-top: 60px;
@@ -786,38 +832,38 @@ p{
         margin-left: 0px;
         font-size: 15px
     }
-    
+
     p{
-        white-space: normal; 
-        width: 15.5em; 
+        white-space: normal;
+        width: 15.5em;
         overflow: hidden;
-        text-overflow: clip; 
+        text-overflow: clip;
         border: 1px solid #d6004700;
     }
 
     .txtQuarent{
         width: 0px;
     }
-    
+
     .txtGit{
         width: 0px;
     }
-    
+
     .games{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin-left: 33px;
     }
-    
+
     .gameType{
         width: 450px;
     }
-    
+
     .conteudo{
         margin-top: 0px;
     }
-     
+
     .imgCont{
         width: 200px;
         height: 200px;
@@ -825,9 +871,9 @@ p{
         border: transparent thin solid;
         padding: 50px;
     }
-    
+
     .textoCont{
-        width: 352px; 
+        width: 352px;
         margin-left: 30px;
         margin-top: 30px;
         color: #fff;
@@ -844,8 +890,8 @@ p{
 .nav_atual{
     color: var(--color-blue);
 }
-.nav_other { 
-    color:white; 
+.nav_other {
+    color:white;
     text-decoration: none;
 }
 
@@ -855,22 +901,23 @@ p{
 
 /* Links Coloridos */
 .link{
-    color: var(--color-green); 
+    color: var(--color-green);
     text-decoration: none;
     margin-top: 100px;
     margin-left: 0px;
 }
 .link1{
-    color: var(--color-pink); 
+    color: var(--color-pink);
     text-decoration: none;
     margin-top: 100px;
     margin-left: 0px;
 }
 .link2{
-    color: var(--color-blue); 
+    color: var(--color-blue);
     text-decoration: none;
     margin-top: 100px;
     margin-left: 0px;
 }
+
 
 
