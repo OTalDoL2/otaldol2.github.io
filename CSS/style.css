@@ -264,59 +264,52 @@ p{
 
 /* Imagem Estáticas */
 
-.gallery-container {
-    float: right;
-    width: 0.5%;
-    position: relative;
-    margin-top: 0px;
-    margin-right: 0px;
-
-  }
+    .gallery-container {
+        float: right;
+        width: 0.5%;
+        position: relative;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
     @media (min-width: 480px) {
         .gallery-container {
-          width: 750px;
-          margin-right: -18px;
+            width: 750px;
+            margin-right: -18px;
         }
     }
 
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
+    .mySlides {
+        display: none;
+    }
 
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    background-color: rgba(0,0,0,0.1);
-  }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0,0,0,0.1);
+    }
 
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
 
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
 
-  /* Caption text */
-
-
-  .imgslide {
-    width: 100%;
-  }
+    .imgslide {
+        width: 100%;
+    }
 
 
 
@@ -364,8 +357,6 @@ p{
     }
 
     .textoInfo {
-        /* margin-left: -180px;
-        margin-top: -200px; */
         display: table;
         float: left;
         width: 10px;
@@ -438,7 +429,7 @@ p{
 
 
 
-@media (max-width: 426px){ /* MObile-L*/
+@media (max-width: 426px){ /* Mobile-L*/
     .checkbtn{
         display: block;
     }
@@ -539,10 +530,7 @@ p{
         margin-bottom: 40px;
         margin-left: 0px;
     }
-
-
-
-
+    /* Proj Page */
 
     .txtQuarent{
         width: 0px;
@@ -551,28 +539,23 @@ p{
     .txtGit{
         width: 0px;
     }
-
     .games{
         width: 150px;
         height: 150px;
         border-radius: 50%;
         margin-left: 90px;
     }
-
     .games2{
         width: 150px;
         height: 150px;
         margin: 0px 0px 0px 0px;
     }
-
     .gameType{
         width: 450px;
     }
-
     .conteudo{
         margin-top: 0px;
     }
-
     .imgCont{
         width: 200px;
         height: 200px;
@@ -580,7 +563,6 @@ p{
         border: transparent thin solid;
         padding: 50px;
     }
-
     .textoCont{
         width: 352px;
         margin-left: 50px;
@@ -591,6 +573,9 @@ p{
     .p3{
         width: 21em;
     }
+
+    /* Games Info */
+
 }
 
 @media (max-width: 376px){ /* Mobile-M*/
@@ -740,7 +725,7 @@ p{
     }
 }
 
-@media (max-width: 320px){ /*Mobile-S*/
+@media (max-width: 320px){ /* Mobile-S*/
     .checkbtn{
         display: block;
     }
