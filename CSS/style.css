@@ -1013,6 +1013,159 @@ p{
     .p3{
         width: 17em;
     }
+
+    /* Games Info */
+
+    .logoInfo{
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgCentral{
+        width: 200px;
+        height: 200px;
+        margin-left: 163px;
+        margin-bottom: 10em;
+    }
+
+    .logoGames{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    .gameInfo{
+        width: 425px;
+        margin: auto;
+    }
+
+    .conteudoInfo{
+        margin-top: 100px;
+        display: table;
+        height: 620px;
+        width: 425px;
+    }
+    .p4{
+        font-size: 20px;
+        width: 400px;
+        margin-bottom: 35px;
+        text-align: justify;
+        margin-left: 12.5px;
+
+        
+    }
+
+    /*slide*/
+    .gallery-container {
+        float: right;
+        width: 0.5%;
+        position: relative;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .gallery-container {
+        width: 375px;
+        margin-right: 24px;
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .imgslide {
+        width: 100%;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /*slide Colab*/
+    
+    .containerColab{
+        width: 400px;
+        height: 38vh;
+        margin-bottom: 120px; 
+        display: flex;
+    }
+
+    .boxColab{
+        width: 90px;
+        height: 20vh;
+        background-color: #1e1e26;
+        border-radius: 20px;
+        margin-right: 80px;
+        
+    }
+
+    .pessoa1{
+        color: var(--color-yell);
+        width: 800px;
+        text-align: center;
+    }
+    .pessoa2{
+        color: var(--color-green);
+        width: 80px;
+        text-align: center;
+    }
+
+    .func1{
+        color: #fff;
+        width: 80px;
+        text-align: center;
+    }
+
+    .p22{
+        width: 80px;
+        height: 80px;
+        border-radius: 20px;
+    }
+
+    .logo-slider{
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
 }
 
 
