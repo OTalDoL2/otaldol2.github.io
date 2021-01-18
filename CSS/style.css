@@ -584,7 +584,7 @@ p{
     .imgCentral{
         width: 200px;
         height: 200px;
-        margin-left: 163px;
+        margin-left: 137px;
         margin-bottom: 10em;
     }
 
@@ -596,7 +596,7 @@ p{
     }
 
     .gameInfo{
-        width: 425px;
+        width: 375px;
         margin: auto;
     }
 
@@ -604,11 +604,11 @@ p{
         margin-top: 100px;
         display: table;
         height: 620px;
-        width: 425px;
+        width: 375px;
     }
     .p4{
-        font-size: 20px;
-        width: 400px;
+        font-size: 18px;
+        width: 350px;
         margin-bottom: 35px;
         text-align: justify;
         margin-left: 12.5px;
@@ -691,7 +691,7 @@ p{
     }
 
     .boxColab{
-        width: 100px;
+        width: 150px;
         height: 30vh;
         background-color: #1e1e26;
         border-radius: 20px;
@@ -703,22 +703,25 @@ p{
         color: var(--color-yell);
         width: 100px;
         text-align: center;
+        font-size: 12px;
     }
     .pessoa2{
         color: var(--color-green);
-        width: 100px;
+        width: 115px;
         text-align: center;
+        font-size: 12px;
     }
 
     .func1{
         color: #fff;
-        width: 100px;
+        width: 120px;
         text-align: center;
+        font-size: 14px;
     }
 
     .p22{
-        width: 100px;
-        height: 100px;
+        width: 118px;
+        height: 118px;
         border-radius: 20px;
     }
 
@@ -873,6 +876,120 @@ p{
     .p3{
         width: 20em;
     }
+
+    /*slide*/
+    .gallery-container {
+        float: right;
+        width: 0.5%;
+        position: relative;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    
+    .gallery-container {
+        width: 375px;
+        margin-right: 24px;
+    }
+
+
+    .mySlides {
+        display: none;
+    }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    .imgslide {
+        width: 100%;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /*slide Colab*/
+    
+    .containerColab{
+        width: 400px;
+        height: 38vh;
+        margin-bottom: 120px; 
+        display: flex;
+    }
+
+    .boxColab{
+        width: 105px;
+        height: 25vh;
+        background-color: #1e1e26;
+        border-radius: 20px;
+        margin-right: 80px;
+        
+    }
+
+    .pessoa1{
+        color: var(--color-yell);
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .pessoa2{
+        color: var(--color-green);
+        width: 105px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .func1{
+        color: #fff;
+        width: 100px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .p22{
+        width: 105px;
+        height: 105px;
+        border-radius: 20px;
+    }
+
+    .logo-slider{
+        margin-left: 25px;
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 320px){ /* Mobile-S*/
@@ -1024,7 +1141,7 @@ p{
     .imgCentral{
         width: 200px;
         height: 200px;
-        margin-left: 163px;
+        margin-left: 117px;
         margin-bottom: 10em;
     }
 
@@ -1036,7 +1153,7 @@ p{
     }
 
     .gameInfo{
-        width: 425px;
+        width: 3250px;
         margin: auto;
     }
 
@@ -1048,17 +1165,14 @@ p{
     }
     .p4{
         font-size: 20px;
-        width: 400px;
+        width: 280px;
         margin-bottom: 35px;
         text-align: justify;
         margin-left: 12.5px;
-
-        
     }
 
     /*slide*/
     .gallery-container {
-        float: right;
         width: 0.5%;
         position: relative;
         margin-top: 0px;
@@ -1067,8 +1181,9 @@ p{
     
     
     .gallery-container {
-        width: 375px;
-        margin-right: 24px;
+        width: 318px;
+        margin-right: 106px;
+        margin-bottom: 25px;
     }
 
 
@@ -1131,7 +1246,7 @@ p{
     }
 
     .boxColab{
-        width: 90px;
+        width: 80px;
         height: 20vh;
         background-color: #1e1e26;
         border-radius: 20px;
@@ -1141,19 +1256,22 @@ p{
 
     .pessoa1{
         color: var(--color-yell);
-        width: 800px;
+        width: 80px;
         text-align: center;
+        font-size: 11px;
     }
     .pessoa2{
         color: var(--color-green);
         width: 80px;
         text-align: center;
+        font-size: 11px;
     }
 
     .func1{
         color: #fff;
         width: 80px;
         text-align: center;
+        font-size: 10px;
     }
 
     .p22{

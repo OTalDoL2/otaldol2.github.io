@@ -23,7 +23,7 @@
                 <li><a href="/pt/Home.html"> Inicio </a></li>
                 <li><a href="/pt/SobreMim.html" > Sobre mim </a></li>
                 <li><a href="/pt/Projetos.html"class="rose"> Trabalhos e Projetos </a></li>
-                <li><a href="/en/projects/Rastros-2028.html" class="lang0"> English </a></li>
+                <li><a href="/en/Projects/Rastros-2028.html" class="lang0"> English </a></li>
             </ul>
         </nav>
 
@@ -182,14 +182,30 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="/JavaScript/slide.js"></script>
-        <script>
-            $('.logo-slider').slick({
+        <script type="text/javascript">
+            $(document).ready(function(){
+            var tam = screen.width;
+            
+            if (tam >=427){
+                $('.logo-slider').slick({
                 slidesToShow: 5,
                 slidesToScrool: 5,
                 dots: false, 
                 arrows: false, 
-                autoplaySpeed: 10, 
-                infinite: true
+                autoplaySpeed: 1, 
+                infinite: true    
+                }); 
+            }
+            else{
+                $('.logo-slider').slick({
+                slidesToShow: 3,
+                slidesToScrool: 3,
+                dots: false, 
+                arrows: false, 
+                autoplaySpeed: 1, 
+                infinite: true    
+                }); 
+            } 
             });
         </script>
     </body>

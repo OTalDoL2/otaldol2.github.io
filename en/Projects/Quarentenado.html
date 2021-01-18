@@ -23,7 +23,7 @@
                 <li><a href="/en/Home.html"> Home </a></li>
                 <li><a href="/en/AboutMe.html"> About me </a></li>
                 <li><a href="/en/Project.html" class="green"> Work </a></li>
-                <li><a href="/pt/projetos/Quarentenado.html" class="lang1"> Português </a></li>
+                <li><a href="/pt/Projetos/Quarentenado.html" class="lang1"> Português </a></li>
             </ul>
         </nav>
 
@@ -157,14 +157,30 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="/JavaScript/slide.js"></script>
-        <script>
-            $('.logo-slider').slick({
+        <script type="text/javascript">
+            $(document).ready(function(){
+            var tam = screen.width;
+            
+            if (tam >=427){
+                $('.logo-slider').slick({
                 slidesToShow: 5,
                 slidesToScrool: 5,
                 dots: false, 
                 arrows: false, 
-                autoplaySpeed: 10, 
-                infinite: true
+                autoplaySpeed: 1, 
+                infinite: true    
+                }); 
+            }
+            else{
+                $('.logo-slider').slick({
+                slidesToShow: 3,
+                slidesToScrool: 3,
+                dots: false, 
+                arrows: false, 
+                autoplaySpeed: 1, 
+                infinite: true    
+                }); 
+            } 
             });
         </script>
         <script src="/JavaScript/slide.js"></script>
