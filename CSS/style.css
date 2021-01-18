@@ -338,9 +338,6 @@ p{
     to {opacity: 1}
   }
 
-
-
-
    .logoGames{
     width: 400px;
     height: 400px;
@@ -441,7 +438,7 @@ p{
 
 
 
-@media (max-width: 425px){ /* MObile-L*/
+@media (max-width: 426px){ /* MObile-L*/
     .checkbtn{
         display: block;
     }
