@@ -3,11 +3,11 @@
 <html lang="en">
     <head>
         <title> </Rastros 2028> </title>
-        <link rel="stylesheet" type="text/css" href="/CSS/style.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="/Anexos/icon.png">
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="/Anexos/icon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     </head>
@@ -51,7 +51,8 @@
                 <div class="wrap">
                     <section class="container gallery-container">
                         <div class="mySlides fade">
-                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-1.png" alt="Main Menu"/>
+                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-1.png" 
+                                 alt="Main Menu"/>
                         </div>
 
                         <div class="mySlides fade">
@@ -61,19 +62,23 @@
                         </div>
             
                         <div class="mySlides fade">
-                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-2.png" alt="How Play"/>
+                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-2.png" 
+                                 alt="How Play"/>
                         </div>
             
                         <div class="mySlides fade">
-                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-3.png" alt="Narrative part 01"/>
+                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-3.png" 
+                                 alt="Narrative part 01"/>
                         </div>
 
                         <div class="mySlides fade">
-                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-4.png" alt="Narrative part 02"/>
+                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-4.png" 
+                                 alt="Narrative part 02"/>
                         </div>
 
                         <div class="mySlides fade">
-                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-5.png" alt="Game Screen"/>
+                            <img class="imgslide" src="/Anexos/imagens-jogos/Rastros_2028-5.png" 
+                                 alt="Game Screen"/>
                         </div>
 
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -180,28 +185,28 @@
         <script src="/JavaScript/slide.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-            var tam = screen.width;
-            
-            if (tam >=427){
-                $('.logo-slider').slick({
-                slidesToShow: 5,
-                slidesToScrool: 5,
-                dots: false, 
-                arrows: false, 
-                autoplaySpeed: 1, 
-                infinite: true    
-                }); 
-            }
-            else{
-                $('.logo-slider').slick({
-                slidesToShow: 3,
-                slidesToScrool: 3,
-                dots: false, 
-                arrows: false, 
-                autoplaySpeed: 1, 
-                infinite: true    
-                }); 
-            } 
+                var tam = screen.width;
+                
+                if (tam >=427){
+                    $('.logo-slider').slick({
+                        slidesToShow: 5,
+                        slidesToScrool: 5,
+                        dots: false, 
+                        arrows: false, 
+                        autoplaySpeed: 1, 
+                        infinite: true    
+                    }); 
+                }
+                else{
+                    $('.logo-slider').slick({
+                        slidesToShow: 3,
+                        slidesToScrool: 3,
+                        dots: false, 
+                        arrows: false, 
+                        autoplaySpeed: 1, 
+                        infinite: true    
+                    }); 
+                } 
             });
         </script>
     </body>
