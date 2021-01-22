@@ -336,7 +336,6 @@ p{
     height: 400px;
     border-radius: 50%;
     margin-top: 50px;
-    margin-left: -50px;
     }
 
     .gameInfo{
@@ -428,7 +427,7 @@ p{
 
 
 
-
+/*aaa*/
 @media (max-width: 426px){ /* Mobile-L*/
     .checkbtn{
         display: block;
@@ -577,15 +576,17 @@ p{
     /* Games Info */
 
     .logoInfo{
-        width: 200px;
+        width: 425px;
         height: 200px;
+        
     }
 
     .imgCentral{
-        width: 200px;
+        width: 425px;
         height: 200px;
-        margin-left: 137px;
+        margin-left: 0px;
         margin-bottom: 10em;
+
     }
 
     .logoGames{
@@ -593,6 +594,7 @@ p{
         height: 200px;
         border-radius: 50%;
         margin-top: 50px;
+        margin-left: 115px;
     }
 
     .gameInfo{
@@ -602,7 +604,6 @@ p{
 
     .conteudoInfo{
         margin-top: 100px;
-        display: table;
         height: 620px;
         width: 375px;
     }
@@ -691,7 +692,7 @@ p{
     }
 
     .boxColab{
-        width: 150px;
+        width: 115px;
         height: 30vh;
         background-color: #1e1e26;
         border-radius: 20px;
@@ -701,28 +702,29 @@ p{
 
     .pessoa1{
         color: var(--color-yell);
-        width: 100px;
+        width: 120px;
         text-align: center;
-        font-size: 12px;
+        font-size: 13px;
     }
     .pessoa2{
         color: var(--color-green);
         width: 115px;
         text-align: center;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .func1{
         color: #fff;
         width: 120px;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .p22{
-        width: 118px;
-        height: 118px;
+        width: 115px;
+        height: 115px;
         border-radius: 20px;
+        margin-left: 1px;
     }
 
     .logo-slider{
@@ -877,20 +879,53 @@ p{
         width: 20em;
     }
 
+    /* Games Info */
+
+    .logoInfo{
+        width: 375px;
+        height: 200px;
+    }
+
+    .imgCentral{
+        width: 375px;
+        height: 200px;
+        margin-left: 0px;
+        margin-bottom: 10em;
+    }
+
+    .logoGames{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+
+    .gameInfo{
+        width: 375px;
+        margin: auto;
+    }
+
+    .conteudoInfo{
+        margin-top: 100px;
+        height: 620px;
+        width: 375px;
+    }
+
+    .p4{
+        font-size: 17px;
+        width: 290px;
+        margin-bottom: 35px;
+        margin-left: 44px;
+        text-align: justify;
+    }
+
     /*slide*/
     .gallery-container {
-        float: right;
-        width: 0.5%;
-        position: relative;
-        margin-top: 0px;
-        margin-right: 0px;
-    }
-    
-    
-    .gallery-container {
-        width: 375px;
+        width: 325px;
         margin-right: 24px;
     }
+    
 
 
     .mySlides {
@@ -992,7 +1027,7 @@ p{
     }
 }
 
-@media (max-width: 320px){ /* Mobile-S*/
+@media (width: 320px){ /* Mobile-S*/
     .checkbtn{
         display: block;
     }
@@ -1134,15 +1169,15 @@ p{
     /* Games Info */
 
     .logoInfo{
-        width: 200px;
+        width: 320px;
         height: 200px;
     }
 
     .imgCentral{
-        width: 200px;
+        width: 320px;
         height: 200px;
-        margin-left: 117px;
-        margin-bottom: 10em;
+        margin-left: 0px;
+        margin-bottom: 8em;
     }
 
     .logoGames{
@@ -1150,40 +1185,39 @@ p{
         height: 200px;
         border-radius: 50%;
         margin-top: 50px;
+        margin-left: 62.5px;
     }
 
     .gameInfo{
-        width: 3250px;
+        width: 320px;
         margin: auto;
     }
 
     .conteudoInfo{
         margin-top: 100px;
-        display: table;
         height: 620px;
-        width: 425px;
+        width: 320px;
     }
     .p4{
-        font-size: 20px;
-        width: 280px;
-        margin-bottom: 35px;
+        font-size: 16px;
+        width: 260px;
+        margin-bottom: 15px;
+        margin-left: 25px;
         text-align: justify;
-        margin-left: 12.5px;
     }
 
     /*slide*/
+
+    
     .gallery-container {
-        width: 0.5%;
-        position: relative;
         margin-top: 0px;
         margin-right: 0px;
     }
     
     
     .gallery-container {
-        width: 318px;
-        margin-right: 106px;
-        margin-bottom: 25px;
+        width: 300px;
+        margin-right: 9px;
     }
 
 
