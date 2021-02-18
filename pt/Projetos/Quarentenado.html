@@ -42,7 +42,7 @@
                         não foi liberada. Tome cuidado para o protagonista não zerar 
                         suas barras de saúde e diversão. Interaja com os objetos da casa 
                         e faça as obrigações para sobreviver a Quarentena ! 
-                        <a href="https://gamejolt.com/games/quarentenado-coronajam/480525" target="https://gamejolt.com/games/quarentenado-coronajam/480525"> Download! </a>
+                        <a href="https://gamejolt.com/games/quarentenado-coronajam/480525" target="https://gamejolt.com/games/quarentenado-coronajam/480525" class="green"> Download! </a>
                     </p>                    
                 </div>
 
@@ -68,8 +68,28 @@
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </section>
                 </div>
+                
+                <div>
+                    <p class="p5">
+                        O jogo <i>Quarentenado</i> foi desenvolvido durante a 
+                            <a href="http://jams.gamejolt.io/corona_jam#" class="rose"> 
+                                CoronaJam
+                            </a>
+                        , uma GameJam promovida pelo desenvolvedor e youtuber 
+                            <a href="https://www.youtube.com/c/Amdr%C3%A9Young/videos" class="blue"> 
+                                Amdré Young.
+                            </a>
+                    </p>
+    
+                    <p class="p5">
+                        Quer saber mais sobre o processo de desenvolvimento? 
+                        <a class="yell"> Claro! </a>
+                    </p>
+                </div>
             </div>
         </section>
+
+        
 
         <div class="logo-slider">
             <div class="item">
@@ -153,6 +173,7 @@
             </div>
         </div>
 
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
         <script src="/JavaScript/slide.js"></script>
@@ -160,13 +181,13 @@
             $(document).ready(function(){
                 var tam = screen.width;
                 
-                if (tam >=427){
+                if (tam >= 427){
                     $('.logo-slider').slick({
                     slidesToShow: 5,
                     slidesToScrool: 5,
-                    dots: false, 
+                    dots: true, 
                     arrows: false, 
-                    autoplaySpeed: 1, 
+                    autoplaySpeed: 0.1, 
                     infinite: true    
                     }); 
                 }
