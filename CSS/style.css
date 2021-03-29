@@ -6,14 +6,14 @@
 
 :root {
     /* Variáveis CSS */
-    --color-title:  #3b2f17;
+    --color-title:  #353434;
     --color-yell: #FD971F;
     --color-blue: #66D9EF;
     --color-green: #A6E22E;
     --color-pink: #F92672;
     --color-none: #ffffff00;
 }
-
+ 
     body, html{
         overflow-x: hidden;
     }
@@ -58,8 +58,196 @@
         margin-bottom: 25px;
         margin-left: 50px;
     }
-
     nav{
+        height: 80px;
+        background-color: #181815;
+    }
+    nav h1{
+        width: 300px;
+        font-size: 10px;
+        position: absolute;
+        top: 17px;
+        left: 12%;
+        color: var(--color-yell);
+
+    }
+    nav ul{
+        float: right;
+        margin-right: 25px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        position: relative;
+        color: #fff;
+        font-size: 18px;
+        padding: 5px 0;
+    }
+    label #btn, label #cancel{
+        color: #fff;
+        font-size: 30px;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check {
+        display: none;
+    }
+    #btnn{
+        color: #fff;
+    }
+    #lab{
+        display: none;
+        font-size: 30px;
+    }
+    @media(max-width: 500px){
+        label #btnn{
+            margin-top: 18px;
+            margin-left: 380px;
+        }
+        #lab{
+            display: block;
+            font-size: 30px;
+        }
+        nav h1{
+            font-size: 25px;
+            left: -3%;
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #373636;
+            top: 65px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display:list-item;
+        }
+        nav ul li a{
+            font-size: 14px;
+            margin: 30px 0;
+            line-height: 30px;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        } 
+        #check:checked ~ label #btn{
+            display: none;
+        }
+        #check:checked ~ label #cancel{
+            display: block;
+        }
+    }
+
+    /* nav{
+        height: 50px;
+
+    }
+    nav h1{
+        color: var(--color-yell);
+        font-size: 20px;
+        position: absolute;
+        width: 300px;
+        top: 15px;
+        left: 5%;
+        text-transform: uppercase;
+    }
+    nav ul{
+        float: right;
+        margin-right: 25px;
+        list-style: none;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 50px;
+        margin: 0 15px;
+    }
+    nav ul li a{
+        position: relative;
+        padding: 5px 0;
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    label #sign-one, label #sign-two{
+        font-size: 30px;
+        color: #fff;
+        float: right;
+        line-height: 50px;
+        margin-right: 30px;
+        cursor: pointer;
+        display: none;
+    }
+
+    #res-menu{ display: none;}
+    .banner-area{
+        background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url();
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner-text{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-text h2{
+        color: white;
+        margin-top: -140px;
+        font-size: 56px;
+        text-align: center;
+    }
+
+    @media(max-width: 870px){
+        label #sign-one{
+            display: block;
+        }
+        nav ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            top: 50px;
+            left: -100%;
+            text-align: center;
+            transition: .5s;
+            z-index: 10;
+        }
+        nav ul li{
+            display: block;
+            margin: 40px 0;
+            line-height: 30px;
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+        #res-menu:checked ~ ul{
+            left: 0;
+        }
+        #res-menu:checked ~label #sign-one { display: none; }
+        #res-menu:checked ~label #sign-two { display: block; }
+    } */
+
+
+
+    /* nav{
         background-color: #181815;
         height: 80px;
         width: 100%;
@@ -112,7 +300,7 @@
     }
     
     #check
-    { display: none; }
+    { display: none; } */
 
 
 
@@ -121,7 +309,100 @@
 
 
 
+    /* .nave {
+    
+            border-bottom: 1px solid #EAEAEB;
+            text-align: right;
+            height: 70px;
+            line-height: 70px;
 
+    }
+    .mymenu {
+        margin: 0 30px 0 0;
+    }
+    .mymenu a {
+        clear: right;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 0 10px;
+        line-height: 70px;
+    }
+    
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        width: 26px;
+        float: right;
+    }
+    #toggle {
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 500px) {
+        .togglwcol{
+            color: white;
+        }
+
+        label {
+            display: block;
+            cursor: pointer;
+        }
+        .mymenu {
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .mymenu a {
+            display: block;
+            border-bottom: 1px solid #EAEAEB;
+            margin: 0;
+         
+        }
+        #toggle {
+            color: white;
+        }
+        #toggle:checked + .mymenu {
+            display: block;
+        }
+    } */
+
+
+
+    /* .nav {
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 70px;
+        line-height: 70px;
+    }
+    .menu {
+        margin: 0 30px 0 0;
+    }
+    .menu a {
+        clear: right;
+        text-decoration: none;
+        color: gray;
+        margin: 0 10px;
+        line-height: 70px;
+    }
+    
+    span {
+        color: #54D17A;
+    }
+    
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        width: 26px;
+        float: right;
+    }
+    #toggle {
+        display: none;
+    } */
 
 
 
@@ -132,6 +413,8 @@
 
 /*Tela Padrão PC*/
     @media (max-width: 952px){
+        
+
         label.logo{
             font-size: 30px;
             padding-left: 50px;
@@ -447,7 +730,28 @@
 
         /* Mobile-L*/
 @media (max-width: 426px){ 
-    .checkbtn{
+
+    /* .menu {
+        text-align: center;
+        width: 100%;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    } */
+
+
+
+
+
+/*Especial OLD*/
+
+    /* .checkbtn{
         display: block;
     }
     ul{
@@ -475,7 +779,10 @@
 
     #check:checked ~ul 
     { left: 0; }
-    
+     */
+
+
+
     .bodyPage{
         background-color: #181815;
         color: white;
