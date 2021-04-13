@@ -792,12 +792,10 @@
         margin-left: 30px;
     }
     .bodyPage .upSkills{
-        margin-top: 80px;
-        margin-bottom: 100px;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 162px;
         line-height: 35px;
-    }
-    .bodyPage .upSkills .green{
-        margin-bottom: 158px;
     }
 
     h1 {
@@ -819,7 +817,7 @@
         float: right;
         border: transparent thin solid;
         padding: 50px;
-        margin: -200px -27px -30px 0;
+        margin: -200px -25px -30px 0;
     }
     .p1{
         width: 15em;
@@ -843,7 +841,7 @@
 
     p{
         white-space: normal;
-        width: 22em;
+        width: 24em;
         overflow: hidden;
         text-overflow: clip;
         border: 1px solid #d6004700;
@@ -1138,14 +1136,13 @@
         background-color: #181815;
         color: white;
         font-family: ProzaLibre-Light;
-        margin-right: 10px;
         margin-bottom: 25px;
-        margin-left: 20px;
     }
     
     .bodyPage .upSkills{
-        margin-top: 40px;
-        margin-bottom: 100px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 160px;
         line-height: 35px;
     }
     
@@ -1195,7 +1192,7 @@
 
     p{
         white-space: normal;
-        width: 19em;
+        width: 20.5em;
         overflow: hidden;
         text-overflow: clip;
         border: 1px solid #d6004700;
@@ -1282,7 +1279,7 @@
         font-size: 17px;
         width: 290px;
         margin-bottom: -15px;
-        margin-left: 44px;
+        margin-left: 40px;
         text-align: justify;
     }
 
@@ -1448,11 +1445,12 @@
         background-color: #181815;
         color: white;
         font-family: ProzaLibre-Light;
-        margin-left: 10px;
+        
     }
     .bodyPage .upSkills{
-        margin-top: 20px;
-        margin-bottom: 100px;
+        margin-top: 0px;
+        margin-bottom: 150px;
+        margin-left: 10px;
         line-height: 35px;
     }
     .bodyPage .upSkills .green{
@@ -1482,7 +1480,7 @@
         float: right;
         border: transparent thin solid;
         padding: 50px;
-        margin: -200px -32px -30px 0;
+        margin: -200px -28px -30px 0;
     }
     .p1{
         width: 12em;
@@ -1506,10 +1504,11 @@
 
     p{
         white-space: normal;
-        width: 15.5em;
+        width: 16.4em;
         overflow: hidden;
         text-overflow: clip;
         border: 1px solid #d6004700;
+        margin-left: 10px;
     }
 
     .txtQuarent
