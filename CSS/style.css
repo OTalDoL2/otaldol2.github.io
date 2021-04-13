@@ -64,7 +64,7 @@
     }
     nav h1{
         width: 300px;
-        font-size: 10px;
+        font-size: 25px;
         position: absolute;
         top: 17px;
         left: 12%;
@@ -1093,6 +1093,18 @@
 
         /* Mobile-M*/
 @media (max-width: 376px){ 
+    label #btnn{
+        margin-top: 15px;
+        margin-left: 300px;
+    }
+    #lab{
+        font-size: 20px;
+    }
+    nav h1{
+        font-size: 22px;
+        left: -3%;
+    }
+
     .checkbtn
     { display: block; }
 
@@ -1274,6 +1286,14 @@
         text-align: justify;
     }
 
+    .p5{
+        float: center;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        width: 325px;
+        display: block;
+    }
+
     /*slide*/
     .gallery-container {
         width: 325px;
@@ -1384,6 +1404,17 @@
 
         /* Mobile-S*/
 @media (width: 320px){ 
+    label #btnn{
+        margin-top: 18px;
+        margin-left: 280px;
+    }
+    #lab{
+        font-size: 20px;
+    }
+    nav h1{
+        font-size: 18px;
+        left: -3%;
+    }
     .checkbtn
     { display: block; }
 
