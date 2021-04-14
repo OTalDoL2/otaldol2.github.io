@@ -12,6 +12,7 @@
     --color-green: #A6E22E;
     --color-pink: #F92672;
     --color-none: #ffffff00;
+    --color-mark: rgba(194, 194, 194, 0.142);
 }
  
     body, html{
@@ -449,10 +450,11 @@
 
     p{
         white-space: normal;
-        width: 35em;
+        width: 30em;
         overflow: hidden;
         text-overflow: clip;
         border: 1px solid #d6004700;
+        text-align: justify;
     }
 
     .p1{
@@ -670,6 +672,14 @@
         margin-right: -45px;
     }
 
+    .citacao{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 54px;
+        width: 22em;
+        text-align: justify;
+    }
+
 
 
 
@@ -851,6 +861,15 @@
         margin-right: 10px;
         margin-bottom: 40px;
         margin-left: 0px;
+        background-color: var(--color-mark);
+    }
+
+    .citacao{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 15px;
+        width: 22em;
+        text-align: justify;
     }
     /* Proj Page */
 
@@ -1197,6 +1216,16 @@
         text-overflow: clip;
         border: 1px solid #d6004700;
     }
+
+    .citacao{
+        background-color: var(--color-mark);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 14px;
+        width: 18.5em;
+        text-align: justify;
+    }
+
     .titleMid
     { margin-top: 70px; }
 
@@ -1511,6 +1540,16 @@
         margin-left: 10px;
     }
 
+    .citacao{
+        background-color: var(--color-mark);
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 22px;
+        width: 18em;
+        text-align: justify;
+        font-size: 12px;
+    }
+
     .txtQuarent
     { width: 0px; }
 
@@ -1718,7 +1757,7 @@
 
 .mark
 {
-    background-color: rgba(194, 194, 194, 0.142);
+    background-color: var(--color-mark);
 }
 
 
