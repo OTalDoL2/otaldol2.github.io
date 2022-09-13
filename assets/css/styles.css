@@ -24,6 +24,13 @@
     --scroll-bar-color: hsl(--hue-color, 27%, 42%);
     --scroll-thumb-color: hsl(--hue-color, 27%, 36%);
     --container-color: #fff;
+    --color-title:  #3b2f17;
+    --color-yell: #fdc21f;
+    --color-blue: #3ed4f2;
+    --color-green: #A6E22E;
+    --color-pink: #f9269a;
+    --color-none: #ffffff00;
+    --color-mark: rgba(194, 194, 194, 0.142);
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -82,8 +89,8 @@ body.dark-theme{
     --title-color: hsl(0, 8%, 95%);
     --text-color: hsl(0, 8%, 75%);
    --text-color-light: hsl(0, 8%, 65%);
-    --input-color: hsl(200, 29%, 16%);
-    --body-color: hsl(200, 28%, 12%);
+    --input-color: 181815;
+    --body-color: #181815;
     --container-color: var(--hue-color);
     --number: hsl(0, 8%, 65%);
     --scroll-bar-color: hsl(--hue-color, 27%, 42%);
@@ -92,7 +99,14 @@ body.dark-theme{
 p, span{
     color: var(--number);
 }
-
+.yell
+{ color: var(--color-yell); }
+.rose
+{ color: var(--color-pink); }
+.green
+{ color: var(--color-green); }
+.blue
+{ color: var(--color-blue); }
 /*========== Button Dark/Light ==========*/
 .nav__btns{
     display: flex;
@@ -300,11 +314,10 @@ header{
 
 .home__social-icon{
     font-size: 1.25rem;
-    color: var(--first-color);
 }
 
 .home__social-icon:hover{
-    color: var(--first-color-alt);
+
 }
 
 .home__blob{
@@ -362,6 +375,11 @@ header{
 
 .home__scroll-arrow{
     font-size: 1.25rem;
+}
+
+/*===================  DINAMICO ===================*/
+.cont-static{
+    display: inline-flex;
 }
 
 /*==================== BUTTONS ====================*/
@@ -528,18 +546,34 @@ header{
 }
 
 .skills__html{
-    width: 80%;
+    width: 90%;
 }
 
 .skills__css{
-    width: 60%;
+    width: 70%;
 }
 
 .skills__js{
-    width: 25%;
+    width: 50%;
+}
+
+.skills__react{
+    width: 20%;
 }
 
 .skills__csharp{
+    width: 70%;
+}
+.skills__java{
+    width: 10%;
+}
+.skills__comunicacao{
+    width: 80%;
+}
+.skills__criativo{
+    width: 75%;
+}
+.skills__pontual{
     width: 90%;
 }
 
@@ -848,6 +882,7 @@ header{
 }
 
 /*==================== MEDIA QUERIES ====================*/
+
 /* For small devices */
 @media screen and (max-width: 350px){
     .container{
@@ -883,14 +918,21 @@ header{
     .testimonial__data, .testimonial__description{
         text-align: center;
     }
-
-
+    .pc-mode{
+        display: none;
+    }
 }
 
 /* For medium devices */
+@media screen and (max-width: 567px){
+    .pc-mode{
+        display: none;
+    }
+}
 @media screen and (min-width: 568px){
     .home__content{
         grid-template-columns: max-content 1fr 1fr;
+        margin-top: 80px;
     }
     .home__data{
         grid-column: initial;
@@ -899,7 +941,9 @@ header{
         order: 1;
         justify-self: center;
     }
-
+    section #home .home{
+        height: 500px;
+    }
 
     .about__container, 
     .skills__container,
@@ -931,9 +975,34 @@ header{
     .about__img{
         width: 280px;
     }
+    .pc-mode{
+        display: none;
+    }
+    .home__content{
+
+    }
+    .mobile-mode{
+        /* display:flexbox; */
+        display:contents;
+        /* display: flow-root; */
+        /* display: grid; */
+        /* display: inline; */
+        /* display: inline-block; */
+        /* display: inline-flex; */
+        /* display: inline-flexbox; */
+        /* display: inline-table; */
+        /* display: list-item; */
+        /* display: ruby; */
+    }
 }
 
 @media screen and (min-width: 768px){
+    .mobile-mode{
+        display: none;
+    }
+    .pc-mode{
+        display: block;
+    }
     .container{
         margin-left: auto;
         margin-right: auto;
@@ -1062,6 +1131,58 @@ header{
     }
     .footer__copy{
         margin-top: 4.5rem;
+    }
+    .cont-static .static{
+        color: var(--title-color);
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .cont-static .dinamico{
+        margin-left: 15px;
+        line-height: 90px;
+        height: 90px;
+        overflow: hidden;
+    }
+    .dinamico li{
+        color: var(--text-color);
+        list-style: none;
+        font-size: 60px;
+        font-weight: 500;
+        animation: slide 6s steps(4) infinite;
+        left: 0;
+        top: 0;
+        position: relative;
+    }
+    .dinamico li span::after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        border-left: 2px solid #6d6d6df7;
+        animation: typing 1.5s steps(20) infinite;
+        background-color: var(--body-color);
+    }
+    .dinamico li span{
+        position: relative;
+    }
+    @keyframes typing{
+        100%{
+            left: 100%;
+            margin: 0 -35px 0 35px;
+        }
+    }
+    @keyframes slide{
+        100%{
+            top: -360px;
+        }
+    }
+    .titleMid{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-right: 10px;
+        margin-bottom: 0px;
+        margin-left: 0px;
     }
 }
 
