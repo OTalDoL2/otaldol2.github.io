@@ -28,7 +28,7 @@
     --color-yell: #fdc21f;
     --color-blue: #3ed4f2;
     --color-green: #A6E22E;
-    --color-pink: #f9269a;
+    --color-pink: hsl(327, 95%, 56%);
     --color-none: #ffffff00;
     --color-mark: rgba(194, 194, 194, 0.142);
 
